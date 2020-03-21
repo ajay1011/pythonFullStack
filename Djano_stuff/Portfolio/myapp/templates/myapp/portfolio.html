@@ -1,0 +1,86 @@
+{% extends 'myapp/base.html'%}
+{% load static %}
+{% block content%}
+<!--Header-->
+ <header class="masthead text-white text-center">
+   <div class="container">
+   <img class="img-fluid mb-5 d-block mx-auto" src="static/mypf/img/profile.png" alt="">
+   <h1 class="text-uppercase mb-0">Ajay Jedhe</h1>
+   <hr class="star-light">
+   <h2 class="font-weight-light mb-0">Software Developer - Spring - Django</h2>
+   </div>
+ </header>
+
+ <!--PORTFOLIO-->
+ <section class="portfolio margin" id="portfolio">
+       <div class="container">
+           <h2 class="text-center text-uppercase text-white mb-0">Portfolio</h2>
+           <hr class="star-light mb-5 text-white">
+     <div class="row">
+       <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body">
+         <h5 class="card-title">Decimate Recaptcha(2.0)</h5>
+         <p class="card-text">An application to bypass google recaptcha</p>
+         <a href="#" ></a>
+
+         </div>
+       </div>
+       </div>
+       <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body">
+         <h5 class="card-title">Snoop Me</h5>
+         <p class="card-text">An smart application to manage activities of person along with providing  valuable insights</p>
+
+         </div>
+       </div>
+       </div>
+     </div>
+     <div class="margin"></div>
+     <div class="row">
+       <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body">
+         <h5 class="card-title">Book Plaza</h5>
+         <p class="card-text">Online portal for books created using Servlets and JSP</p>
+         <a href="#" ></a>
+
+         </div>
+       </div>
+       </div>
+       <div class="col-sm-6">
+       <div class="card">
+         <div class="card-body">
+         <h5 class="card-title">Recognize</h5>
+         <p class="card-text">An face recognition application created using python and AWS recognition service</p>
+
+         </div>
+       </div>
+       </div>
+     </div>
+   </div>
+ </section>
+
+ <!--ABOUT-->
+ <section class="text-white mb-0 margin" id="about">
+   <div class="container">
+   <h2 class="text-center text-uppercase text-white">About</h2>
+   <hr class="star-light mb-5">
+   <div class="row">
+     <div class="col-lg-4 ml-auto about-1">
+     <p class="lead">I'm a Software Developer working on Java , Using Spring  for application Development. Previously worked as Android Developer for 0.6 years </p>
+     </div>
+     <div class="col-lg-4 mr-auto about-2">
+     <p class="lead">Also having knowledge of HTML, CSS, Javascript, Ajax, Bootstrap,GIT,MySQL.  </p>
+     </div>
+   </div>
+   <div class="text-center mt-4">
+     <a class="btn btn-xl btn-cv" href="/static/myapp/files/resume.pdf" download>
+     <i class="fas fa-download mr-2"></i>
+     Download CV
+     </a>
+   </div>
+   </div>
+ </section>
+{% endblock %}
